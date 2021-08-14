@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab:wght@100&display=swap');
+
+section.Me .container {
+  text-align: center;
+}
+body {
+  background-color: #465a70;
+  color: #ffffff;
+  line-height: 1.2;
+  font-size: 100%;
+  font-family: 'Roboto Slab', serif;
+}
+section.me {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.me img.profilePicture {
+  max-height: 700px;
+  max-width: 700px;
+  border-radius: 8px;
+}
+.spc-2 {
+  margin-right: 5px;
+}
+.spc-1 {
+  margin-right: 30px;
+}
+.btn {
+  padding: 20px 20px;
+  border-radius: 30px;
+  background-color: #2a2e3a;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn.btn-primary {
+  background-color: #2a2e3a;
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+
+/* Contact Me */
+.form-group {
+  margin-bottom: 10px;
+}
+.form-group label {
+  display: block;
+  width: 100%;
+  color: #858b95;
+  margin-bottom: 0.8px;
+  font-size: 0.12px;
+}
+
+.form-radio-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.form-radio-group label {
+  font-size: 14px;
+}
+.form-radio-group > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-radio-group > div label {
+  padding-left: 0.5rem;
+  margin: 0;
+  color: #efecff;
+}
+
+.form-control {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: 14px;
+  background-color: #24222a;
+}
+
+.alternate-bg .form-control {
+  background-color: #BDBDBD;
+}
+section.contact form {
+  margin: auto;
+  max-width: 724px;
+  text-align: left;
+}
+h2{
+  text-align: center;
+}
+.text-center {
+  text-align: center;
+}
+
+/*about me */ 
+#info{
+  display:inline-flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  padding: 100px;
+  background-color: #374758;
+  overflow: hidden;
+}
+#about{
+    width: 60%;
+    padding-right: 30px;
+}
+
+p{
+  margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  text-align: left;
+}
+h2{
+  color:#00adb5;
+}
+/* Education */
+#education{
+  background-color: #2b3846;
+  padding: 30px;
+ 
+}
+.edu-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.edu-container {
+ display: grid;
+ grid-gap: 1px;
+ grid-template-rows: 40% 65%;
+ padding: 30px;
+}
+
+.edu-id {
+ background-color:#455d7a;
+ color: white;
+ padding: 15px;
+ text-align: center;
+ align-items: center;
+}
+
+.edu-id b{
+   font-size: 20px;
+}
+
+.edu-desc {
+ background-color: #2a2e3a;
+ padding: 20px;
+ text-align: left;
+}
+.edu-desc i{
+ font-size: 13px;;
+}
