@@ -107,9 +107,7 @@ section.contact form {
   max-width: 724px;
   text-align: left;
 }
-h2{
-  text-align: center;
-}
+
 .text-center {
   text-align: center;
 }
@@ -136,6 +134,7 @@ p{
 }
 h2{
   color:#00adb5;
+  text-align: center;
 }
 
 /* Education */
